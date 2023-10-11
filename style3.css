@@ -1,0 +1,24 @@
+
+body {
+    padding: 20px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    border: 5px solid #161a4582;
+    position: relative;
+}
+#absolute-box {
+    position: absolute;
+    top: 65px;
+    left: 65px;
+}
+#fixed-box {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+#relative-box {
+    position: relative;
+}
