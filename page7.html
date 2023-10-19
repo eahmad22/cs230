@@ -1,13 +1,59 @@
 <html>
     <head>
         <title>Mobile Site</title>
-        <meta name="viewport"
-        content="width=device-width,
-        initial-scale=1.0,
-        user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="theme-color"content="#48e" />
+         <!-- 64x64 (browser favicon) -->
+        <link rel="icon" type="image/png" sizes="64x64"
+        href="myimage3.png">
+        <!-- 128x128 (normal android size) -->
+        <link rel="icon" type="image/png" sizes="128x128"
+        href="myimage3.png">
+        <!-- 180x180 (modern iphone, ipad, mac size) -->
+        <link rel="apple-touch-icon" sizes="180x180"
+        href="myimage3.png">
     </head>
-    <body>
+    <link rel="stylesheet" media="screen and (min-width: 900px)"
+    href="widescreen.css">
+    
+    <link rel="stylesheet" media="screen and (max-width: 600px)"
+    href="smallscreen.css">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .Boxes {
+          overflow: hidden;
+          background-color:slategrey
+        }
+        
+        .Boxes a {
+          float: center;
+          display: block;
+          color:rgb(33, 0, 151);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        .Boxes a:hover {
+          background-color: #17bbe8;
+          color: black;
+          transition: all;
+          transition-duration: 0.8s;
+        }
+        </style>
+    <body style="background-color: bisque;">
        <h1>Mobile Friendly Site</h1>
+       <br>
+       <div class="Boxes">
+        <a href="#">Box 1</a>
+        <a href="#">Box 2</a>
+        <a href="#">Box 3</a>
+        <a href="#">Box 4</a>
+        <a href="#">Box 5</a>
+      </div>  
        <p>
         <a href="index.html">Page 1</a>
        </p> 

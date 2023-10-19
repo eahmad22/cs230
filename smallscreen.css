@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Boxes {
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+    .Boxes {
+      float: none;
+      width: 100%;
+    }
+  }
+
+img { 
+    max-width: 200px; max-height: 200px; 
+}
+table { 
+    width: 90%;
+}
+
+.index.html {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(25, 97, 192);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.index.html:hover {
+    background-color: rgb(45, 161, 255);
+    transition: all;
+    transition-duration: 0.8s;
+}
